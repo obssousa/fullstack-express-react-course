@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  background-color: black;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 8px;
+  width: 150px;
+  background-color: white;
+  color: gray;
+  padding: 4px;
+  text-decoration: none;
+}
+
+a:hover {
+  outline: 2px solid #FF5722;
+}
+
+a#vue-link {
+  color: green;
+}
+
+a#react-link {
+  color: #007BFF;
+}
+
+#framework-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#framework-logo {
+  width: 48px;
+  height: 48px;
+}

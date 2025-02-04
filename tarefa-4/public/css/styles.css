@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    background: red;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    background: aqua;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+    background: aliceblue;
+    padding: 20px;
+}
